@@ -1,23 +1,36 @@
 ---
-layout: default
+layout: index
+title: "Lizzy Stewart | Social Media Marketer in Austin, TX"
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<div class="grid grid-centered">
+  <div class="grid-cell">
+    <div class="about-me">
+      <h2>About me</h2>
+      <p>This is a buncha stuff about Lizzolady. This is a buncha stuff about Lizzolady. This is a buncha stuff about Lizzolady. This is a buncha stuff about Lizzolady. This is a buncha stuff about Lizzolady. This is a buncha stuff about Lizzolady. This is a buncha stuff about Lizzolady. This is a buncha stuff about Lizzolady. </p>
+    </div>
+  </div>
 </div>
+
+<div class="my-work-wrapper">
+  <div class="grid grid-centered">
+    <div class="grid-cell">
+      <div class="my-work-inner">
+        <h2>My Work</h2>
+        {% for work in site.work %}
+          <a href="{{ work.url }}" class="work">
+            <img src="{{ work.preview_image }}">
+            <div class="work-text">
+              <h2>{{ work.title }}</h2>
+              <p>{{ work.description }}</p>
+            </div>
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+

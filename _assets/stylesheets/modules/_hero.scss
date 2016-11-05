@@ -1,0 +1,24 @@
+.hero {
+    text-align: center;
+    background-color: #14a080;
+    color: #fff;
+    padding: 30px 20px 50px;
+
+    .hero-portrait {
+        border-radius: 50%;
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2),0 6px 10px 0 rgba(0,0,0,0.3);
+        margin: 20px auto 0;
+        width: 260px;
+        -webkit-filter: brightness(120%);
+    }
+
+    h1 {
+        color: #fff;
+        font-size: 72px;  
+        font-weight: bold;
+    }
+
+    span.sub-title {
+        font-size: 18px;
+    }
+}

@@ -16,29 +16,7 @@ title: "Lizzy Stewart | Social Media Marketer in Austin, TX"
   </div>
 </div>
 
-<div class="my-work-wrapper">
-  <div class="grid grid-centered">
-    <div class="grid-cell">
-      <div class="my-work-inner">
-        <h2 class="my-work-heading">My Work</h2>
-        {% for work in site.work %}
-          <a href="{{ work.url }}" class="work">
-            <div class="work-preview-image-wrapper">
-              <img class="work-preview-image" src="{{ work.preview_image }}">
-            </div>
-            <div class="work-text">
-              <h2>{{ work.title }}</h2>
-              <p>{{ work.description }}</p>
-            </div>
-            <div class="read-more">
-              <span>Read more <i class="fa fa-angle-right" aria-hidden="true"></i></span>
-            </div>
-          </a>
-        {% endfor %}
-      </div>
-    </div>
-  </div>
-</div>
+{% include work-list.html %}
 
 
 

@@ -3,9 +3,8 @@ layout: work
 title: "Sweet Leaf Tea"
 description: "I community managed all social channels, ran the brand’s first influencer campaign, and helped manage a national product recall, while helping create content that brought the brand back to its Austin roots."
 preview_image: "/assets/work/sweet-leaf-tea/sweet-leaf-tea-preview.jpg"
+metadata: "October 2015 - August 2016"
 ---
-
-{% include image.html path="work/sweet-leaf-tea/sweet-leaf-tea-preview.jpg" path-detail="work/sweet-leaf-tea/sweet-leaf-tea-preview.jpg" alt="Sweet Leaf Tea" %}
 
 Chalk uses the default Jekyll syntax highlighting gem Rouge. It has a customized style for both light and dark theme.
 Use the `highlight` tag to use the following code highlighting your preferred language:

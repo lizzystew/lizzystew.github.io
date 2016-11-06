@@ -24,6 +24,7 @@ social:
 # Important settings (change at own risk)
 
 assets:
+  baseurl: http://lizzystew.github.io/assets
   compress:
     css: true
     js: true

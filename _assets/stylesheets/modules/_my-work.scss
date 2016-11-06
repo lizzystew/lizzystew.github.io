@@ -3,5 +3,57 @@
 }
 
 .my-work-inner {
-    padding: 40px 0;
+    padding: 40px 0; 
+}
+
+.work {
+    background: #fff;
+    display: block;
+    border-radius: 3px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37);
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    transition: all 0.28s cubic-bezier(0.4,0,0.2,1);
+
+    &:hover {
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2),0 6px 10px 0 rgba(0,0,0,0.3);
+
+        .read-more {
+            color: #fff;
+            background: $link-color;
+        }
+    }
+
+    .work-preview-image-wrapper {
+        display: block;
+        float: left;
+        padding: 10px;
+        width: 36%;
+    }
+
+    .work-text {
+        padding: 15px;
+
+        h2 {
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 14px;
+        }
+
+    }
+
+    .read-more {
+        color: #aaa;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        border-top-left-radius: 3px;
+        transition: all 0.28s cubic-bezier(0.4,0,0.2,1);
+    }
+
 }

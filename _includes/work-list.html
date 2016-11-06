@@ -6,7 +6,7 @@
         {% for work in site.work %}
           <a href="{{ work.url }}" class="work">
             <div class="work-preview-image-wrapper">
-              <img data-no-retina class="work-preview-image" src="{{ work.preview_image }}">
+              <img data-no-retina class="work-preview-image" src="{% asset_path '{{ work.preview_image }}' %}">
             </div>
             <div class="work-text">
               <h2>{{ work.title }}</h2>

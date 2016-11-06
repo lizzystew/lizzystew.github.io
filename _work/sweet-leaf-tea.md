@@ -2,22 +2,12 @@
 layout: work
 title: "Sweet Leaf Tea"
 description: "I community managed all social channels, ran the brand’s first influencer campaign, and helped manage a national product recall, while helping create content that brought the brand back to its Austin roots."
-preview_image: "/assets/work/sweet-leaf-tea/sweet-leaf-tea-preview.jpg"
+preview_image: "work/sweet-leaf-tea/sweet-leaf-tea-preview.jpg"
 metadata: "October 2015 - August 2016"
 ---
 
 Chalk uses the default Jekyll syntax highlighting gem Rouge. It has a customized style for both light and dark theme.
 Use the `highlight` tag to use the following code highlighting your preferred language:
-
-{% highlight html %}
-<!-- This is a comment -->
-<div class="grid">
-  <h1>This is a heading</h1>
-  <p>
-    This is a paragraph text.
-  </p>
-</div>
-{% endhighlight %}
 
 ## Headings
 
@@ -47,25 +37,12 @@ Ordered list example:
 3. Ordered list item 1
 4. Ordered list item 1
 
-{% highlight markdown %}
-* Unordered list item 1
-* Unordered list item 2
-
-1. Order list item 1
-2. Order list item 1
-{% endhighlight %}
-
 ## Quotes
 
 A quote looks like this:
 
 > Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
 incididunt ut labore et dolore magna.
-
-{% highlight markdown %}
-> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna.
-{% endhighlight %}
 
 ## Media
 
@@ -75,11 +52,7 @@ If you wish that an image can be enlarged on click use the image include tag. Yo
 - `path-detail`: Image to show when enlarging.
 - `alt`: Alt text for image in blog post.
 
-{% include image.html path="documentation/sample-image.jpg" path-detail="documentation/sample-image@2x.jpg" alt="Sample image" %}
-
-{% highlight html %}
-{% include image.html path="documentation/sample-image.jpg" path-detail="documentation/sample-image@2x.jpg" alt="Sample image" %}
-{% endhighlight %}
+{% include layout_image.html path="documentation/sample-image.jpg" alt="Sample image" %}
 
 Videos can be added and are responsive by default (4x3 by default, 16x9 with extra class).
 
@@ -87,8 +60,3 @@ Videos can be added and are responsive by default (4x3 by default, 16x9 with ext
 <iframe src="https://www.youtube.com/embed/vO7m8Hre72E?modestbranding=1&autohide=1&showinfo=0&controls=0" frameborder="0" allowfullscreen></iframe>
 </div>
 
-{% highlight html %}
-<div class="embed-responsive embed-responsive-16by9">
-<iframe src="url-to-video" frameborder="0" allowfullscreen></iframe>
-</div>
-{% endhighlight %}

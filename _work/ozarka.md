@@ -6,11 +6,11 @@ preview_image: "work/ozarka/OZLogo3.png"
 ---
 ## The Challenge
 
-Springbox was tasked with taking six regional water brands, and giving each a locally authentic presence and voice on social. Three of the six brands fell under my umbrella, and this is the story of just one of them — Texas-based Ozarka. 
+My team was tasked with taking six regional water brands, and giving each a locally authentic presence and voice on social. Three of the six brands fell under my umbrella, and among them was Texas-based Ozarka Spring Water.
 
 ## The Voice
 
-Everything’s bigger in Texas. That includes the pride that Texans have for their home state, and the hello that they wave to their neighbors. With this in mind, we crafted a social voice for Ozarka that was authentic, friendly, and partial to "y'all's" — and brought that voice to life in both social content and responses. 
+Everything’s bigger in Texas. That includes the pride that Texans have for their home state, and the "hello" that they wave to their neighbors. With this in mind, we crafted a social voice for Ozarka that was authentic, friendly, and partial to "y'all's" — and brought that voice to life in both social content and responses. 
 
 ## The Results
 

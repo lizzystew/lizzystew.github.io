@@ -3,6 +3,7 @@ layout: work
 title: "Sweet Leaf Tea"
 description: "I community managed all social channels, ran the brand’s first influencer campaign, and helped manage a national product recall, while helping create content that brought the brand back to its Austin roots."
 preview_image: "work/sweet-leaf-tea/sweet-leaf-tea-preview.jpg"
+date: 2016-11-07
 ---
 ## The Challenge
 

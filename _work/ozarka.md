@@ -3,6 +3,7 @@ layout: work
 title: "Ozarka Spring Water"
 description: "Springbox was tasked with taking six regional water brands and giving them an authentic local voice on social. I was responsible for community managing Texas-based Ozarka, as well as assisting with content creation and campaign concepting."
 preview_image: "work/ozarka/OZLogo3.png"
+date: 2016-11-09
 ---
 ## The Challenge
 

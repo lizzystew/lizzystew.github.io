@@ -4,7 +4,7 @@ baseurl: /
 name: Lizzy Stewart | Social Media Marketer in Austin, TX
 paginate: 10
 paginate_path: "/blog/page:num/"
-url: http://lizzystew.github.io # add site url http://example.com/
+url: http://lizzystewart.com/ # add site url http://example.com/
 blog_theme: light # Or use dark
 
 # Optional settings

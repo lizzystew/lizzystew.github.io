@@ -1,12 +1,18 @@
 <section id="{{ include.section.section_id }}" class="block hero-block outer">
-  <div class="inner-small">
-    <div class="block-header">
-      <h2 class="block-title">{{ include.section.title }}</h2>
-    </div><!-- .block-header -->
-    <div class="block-content">
-      <div class="block-copy">
-        {{ include.section.content | markdownify }}
-      </div>
-    </div><!-- .block-content -->
+  <div class="inner-small hero-content-wrapper">
+    <div class="hero-image-wrapper">
+      <img src="/assets/lizzy.jpg" alt="Lizzy" class="hero-portrait" />
+      <img src="/assets/jane.jpg" id="hero-jane-photo" alt="Lizzy and Jane" class="hero-portrait" />
+    </div>
+    <div>
+      <div class="block-header">
+        <h2 class="block-title">{{ include.section.title }}</h2>
+      </div><!-- .block-header -->
+      <div class="block-content">
+        <div class="block-copy">
+          {{ include.section.content | markdownify }}
+        </div>
+      </div><!-- .block-content -->
+    </div>
   </div><!-- .inner -->
 </section><!-- .block -->

@@ -3,7 +3,6 @@
  * ----------------------------------------------------------------------------
  */
 .site-header {
-  border-bottom: 1px solid _palette(border);
   padding-bottom: 1.33333em;
   padding-top: 1.33333em;
 }
@@ -24,19 +23,23 @@
 }
 
 .site-title {
-  color: #fff;
-  font-size: 1.22222rem;
+  font-family: 'Berkshire Swash', cursive;
+  color: _palette(accent-yellow);
+  font-size: 32px;
   font-weight: bold;
   line-height: 1.2;
   margin: 0;
-  text-transform: uppercase;
 
   a {
-    background: _palette(accent);
     border: 0;
     color: inherit !important;
     display: inline-block;
     padding: 5px 10px;
+    border-radius: 3px;
+  }
+
+  &:hover {
+    color: lighten(_palette(accent-yellow), 10%);
   }
 }
 

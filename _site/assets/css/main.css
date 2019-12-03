@@ -660,7 +660,6 @@ img {
  * ----------------------------------------------------------------------------
  */
 .site-header {
-  border-bottom: 1px solid #e8e8e8;
   padding-bottom: 1.33333em;
   padding-top: 1.33333em; }
 
@@ -678,18 +677,20 @@ img {
   flex: 0 0 auto; }
 
 .site-title {
-  color: #fff;
-  font-size: 1.22222rem;
+  font-family: 'Berkshire Swash', cursive;
+  color: #ed9700;
+  font-size: 32px;
   font-weight: bold;
   line-height: 1.2;
-  margin: 0;
-  text-transform: uppercase; }
+  margin: 0; }
   .site-title a {
-    background: #d8195e;
     border: 0;
     color: inherit !important;
     display: inline-block;
-    padding: 5px 10px; }
+    padding: 5px 10px;
+    border-radius: 3px; }
+  .site-title:hover {
+    color: #ffae21; }
 
 .site-logo {
   margin: 0; }
@@ -1097,12 +1098,49 @@ img {
   padding-top: 3.33333rem; }
 
 /* Hero */
-.hero-block .block-header {
-  margin-bottom: 0.83333em; }
-.hero-block .block-title {
-  font-size: 2.44444rem; }
-.hero-block .block-content {
-  color: #49535a; }
+.hero-block.hero-block {
+  background: #667db6;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin-bottom: 25px; }
+  .hero-block.hero-block .hero-content-wrapper {
+    color: white;
+    display: flex;
+    align-items: flex-start; }
+  .hero-block.hero-block .hero-image-wrapper {
+    flex-shrink: 0;
+    overflow: hidden;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin-right: 35px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    border: 3px solid rgba(255, 255, 255, 0.1);
+    position: relative; }
+  .hero-block.hero-block .hero-portrait {
+    position: absolute;
+    width: 100%;
+    display: block; }
+  .hero-block.hero-block .block-header {
+    margin-bottom: 0.83333em; }
+  .hero-block.hero-block .block-title {
+    font-size: 2.6rem;
+    font-family: 'Berkshire Swash', cursive; }
+  .hero-block.hero-block #hero-jane-photo {
+    opacity: 0;
+    transition: opacity ease-in-out 200ms; }
+    .hero-block.hero-block #hero-jane-photo.show {
+      opacity: 1; }
+  .hero-block.hero-block .hero-link {
+    color: #ffc763;
+    cursor: default;
+    border-bottom: solid 2px transparent;
+    transition: color ease-in-out 50ms; }
+    .hero-block.hero-block .hero-link:hover {
+      color: #ffdda1; }
 
 /* Latest posts */
 .posts-block .post-header,

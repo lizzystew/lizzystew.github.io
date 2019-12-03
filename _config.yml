@@ -7,8 +7,8 @@ collections:
 color_scheme: light
 accent_color: pink
 header:
-  title: Exto
-  has_nav: true
+  title: Lizzy Stewart
+  has_nav: false
 footer:
   content: '&copy; Stackbit-Exto. All rights reserved.'
   links:

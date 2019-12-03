@@ -43,17 +43,64 @@
 }
 
 /* Hero */
-.hero-block {
+.hero-block.hero-block {
+  background: #667db6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin-bottom: 25px;
+  
+  .hero-content-wrapper {
+    color: white;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .hero-image-wrapper {
+    flex-shrink: 0;
+    overflow: hidden;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin-right: 35px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    border: 3px solid rgba(255, 255, 255, 0.1);
+    position: relative;
+  }
+
+  .hero-portrait {
+    position: absolute;
+    width: 100%;
+    display: block;
+  }
+
   .block-header {
     margin-bottom: 0.83333em;
   }
 
   .block-title {
-    font-size: 2.44444rem;
+    font-size: 2.6rem;
+    font-family: 'Berkshire Swash', cursive;
   }
 
-  .block-content {
-    color: _palette(secondary);
+  // Hero photos
+  #hero-jane-photo {
+    opacity: 0;
+    transition: opacity ease-in-out 200ms;
+
+    &.show {
+      opacity: 1;
+    }
+  }
+
+  .hero-link {
+    color: lighten(_palette(accent-yellow), 23%);
+    cursor: default;
+    border-bottom: solid 2px transparent;
+    transition: color ease-in-out 50ms;
+    
+    &:hover {
+      color: lighten(_palette(accent-yellow), 35%);
+    }
   }
 }
 

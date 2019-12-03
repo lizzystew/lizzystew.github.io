@@ -27,3 +27,21 @@ if (menuToggle) {
     }
   }, true);
 }
+
+// Hero links/photos
+if (document.getElementById("hero")) {
+  var links = ["jane"];
+
+  links.forEach(function(link) {
+    var linkElement = document.getElementById("hero-" + link + "-link");
+    var photoElement = document.getElementById("hero-" + link + "-photo");
+
+    linkElement.addEventListener('mouseenter', function() {
+      photoElement.classList.add("show")
+    });
+
+    linkElement.addEventListener('mouseleave', function() {
+      photoElement.classList.remove("show")
+    });
+  })
+}

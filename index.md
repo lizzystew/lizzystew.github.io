@@ -4,10 +4,10 @@ sections:
   - section_id: hero
     component: hero_block.html
     type: heroblock
-    title: 'Hi, I''m Stackbit Exto Portfolio Theme.'
+    title: "Why, hello!"
     content: >-
-      This section can contain a subtitle or tagline. The recommended length is
-      one to three sentences, but can be changed as you prefer.
+      <p>I’m a strategist currently based in Austin, TX. I cut my teeth in social and digital, but after working closely with brand strategy I’m looking for opportunities to expand into a generalist role in the Chicago area. Bringing insights, research and analytics together to craft creative solutions to client problems and cut through the clutter is my happy place.</p>
+      <p>I also love my cat, <span id="hero-jane-link" class="hero-link">Jane</span>.
   - section_id: latest-projects
     component: portfolio_block.html
     type: portfolioblock

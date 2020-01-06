@@ -10,11 +10,7 @@ header:
   title: Lizzy Stewart
   has_nav: false
 footer:
-  content: '&copy; Stackbit-Exto. All rights reserved.'
-  links:
-    - text: Made with Stackbit
-      url: 'https://www.stackbit.com'
-      new_window: true
+  content: '&copy; Lizzy Stewart 2019'
   has_social: true
 sass:
   indentWidth: 4

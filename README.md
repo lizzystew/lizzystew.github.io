@@ -16,8 +16,6 @@ Stackbit Exto Theme original README is located [here](./README.theme.md).
 
         bundle install
 
-
-
 1. Build the site and make it available on a local server
 
         bundle exec jekyll serve

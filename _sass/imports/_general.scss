@@ -380,7 +380,7 @@ img {
   position: relative;
 
   &:before {
-    border-left: 30px solid _palette(accent);
+    border-left: 30px solid _palette(accent-yellow);
     display: block;
     content: "";
     height: 5px;

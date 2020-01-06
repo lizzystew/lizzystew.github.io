@@ -6,73 +6,28 @@ sections:
     type: heroblock
     title: "Why, hello!"
     content: >-
-      <p>I’m a strategist currently based in Austin, TX. I cut my teeth in social and digital, but after working closely with brand strategy I’m looking for opportunities to expand into a generalist role in the Chicago area. Bringing insights, research and analytics together to craft creative solutions to client problems and cut through the clutter is my happy place.</p>
-      <p>I also love my cat, <span id="hero-jane-link" class="hero-link">Jane</span>.
+      <p>Why, hello! I’m Lizzy, a strategist from Austin, TX with a background in social and digital. Bringing insights, data and creativity together to craft solutions to client problems is my happy place.</p>
+      <p>My other happy places:</p>
+      <ul>
+        <li>On a 5 mile <span id="hero-running-link" class="hero-link">run</span> around Ladybird Lake (the dog-watching is primo)</li>
+        <li>In the kitchen making darn good eggs (my cast iron <span id="hero-skillet-link" class="hero-link">skillet</span> and I are in a committed relationship)</li>
+        <li><span id="hero-jane-link" class="hero-link">Jane</span></li>
+        <li>On the patio with a glass of red wine and a really good <span id="hero-books-link" class="hero-link">book</span> (Madeline Miller is a recent favorite)</li>
+      </ul>
   - section_id: latest-projects
     component: portfolio_block.html
     type: portfolioblock
-    layout_style: mosaic
+    layout_style: tiles
     title: Recent Work
-    subtitle: An optional subtitle of the section
+    subtitle: 
     num_projects_displayed: 6
     view_all_text: View All
     view_all_url: portfolio/index.html
-  - section_id: services
-    component: services_block.html
-    type: servicesblock
-    title: What We Do
-    subtitle: An optional subtitle of the section
-    serviceslist:
-      - title: Service Title
-        content: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-          ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
-          fringilla, fringilla tortor at, pulvinar orci.
-      - title: Service Title
-        content: >-
-          Donec lobortis velit sed suscipit lobortis. Ut non quam metus. Nullam
-          a maximus mi. Quisque justo nunc, sollicitudin euismod euismod at,
-          tincidunt ut tellus. Vivamus rhoncus mattis varius. 
-      - title: Service title
-        content: >-
-          Vestibulum a nunc ut eros condimentum posuere. Nullam dapibus quis
-          nunc non interdum. Pellentesque tortor ligula, gravida ac commodo eu.
-      - title: Service title
-        content: >-
-          Aliquam pulvinar, orci ac scelerisque tempus, felis leo sagittis
-          justo, sit amet condimentum lorem nibh vel quam. Duis consectetur
-          lorem ipsum, non efficitur urna viverra et.
-  - section_id: testimonials
-    component: testimonials_block.html
-    type: testimonialsblock
-    title: Testimonials
-    subtitle: An optional subtitle of the section
-    testimonialslist:
-      - author: John Doe
-        avatar: images/john_doe.jpg
-        content: >-
-          Vestibulum a nunc ut eros condimentum posuere. Nullam dapibus quis
-          nunc non interdum. Pellentesque tortor ligula, gravida ac commodo eu.
-      - author: Jane Roe
-        avatar: images/jane_roe.jpg
-        content: >-
-          Sed laoreet magna commodo libero euismod sodales. Nunc ac libero
-          convallis, interdum ligula vel, pretium diam. Integer commodo sem at
-          dui sollicitudin, vel posuere justo laoreet.
-  - section_id: latest-posts
-    component: posts_block.html
-    type: postsblock
-    title: Latest from the Blog
-    subtitle: An optional subtitle of the section
-    num_posts_displayed: 2
-    actions:
-      - label: View Blog
-        url: blog/index.html
   - section_id: contact
     component: contact_block.html
     type: contactblock
-    title: Contact Us
-    subtitle: An optional subtitle of the section
+    title: Get in touch
+    subtitle: Copy here?
 menus:
   main:
     weight: 1

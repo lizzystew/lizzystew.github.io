@@ -23,6 +23,7 @@
 }
 
 .block-title {
+  font-family: 'Berkshire Swash', cursive;
   font-size: 1.66667rem;
   margin: 0;
 }
@@ -42,6 +43,23 @@
   padding-top: 3.33333rem;
 }
 
+.contact-method {
+  display: inline-flex;
+  align-items: center;
+  font-size: 18px;
+  border: none;
+  margin-bottom: 12px;
+
+  &:first-of-type {
+    margin-top: 24px;
+  }
+
+  > span {
+    font-size: 32px;
+    margin-right: 12px;
+  }
+}
+
 /* Hero */
 .hero-block.hero-block {
   background: #667db6;  /* fallback for old browsers */
@@ -53,14 +71,15 @@
     color: white;
     display: flex;
     align-items: flex-start;
+    max-width: 1024px;
   }
 
   .hero-image-wrapper {
     flex-shrink: 0;
     overflow: hidden;
-    border-radius: 50%;
-    width: 300px;
-    height: 300px;
+    border-radius: 3px;
+    width: 400px;
+    height: 450px;
     margin-right: 35px;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     border: 3px solid rgba(255, 255, 255, 0.1);
@@ -83,7 +102,7 @@
   }
 
   // Hero photos
-  #hero-jane-photo {
+  .hero-portrait {
     opacity: 0;
     transition: opacity ease-in-out 200ms;
 

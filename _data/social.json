@@ -1,28 +1,17 @@
 {
     "links": [
         {
-            "type": "twitter",
-            "title": "Twitter",
-            "icon": "fa-twitter",
-            "url": "https://twitter.com/"
-        },
-        {
-            "type": "instagram",
-            "title": "Instagram",
-            "icon": "fa-instagram",
-            "url": "https://www.instagram.com/"
-        },
-        {
-            "type": "dribbble",
-            "title": "Dribbble",
-            "icon": "fa-dribbble",
-            "url": "https://dribbble.com/"
-        },
-        {
             "type": "linkedin",
             "title": "LinkedIn",
-            "icon": "fa-linkedin",
-            "url": "https://www.linkedin.com/"
-        }
+            "icon": "fab fa-linkedin",
+            "url": "http://linkedin.com/in/lizzy-stewart"
+        },
+        {
+            "type": "email",
+            "title": "Email",
+            "icon": "fas fa-envelope-square",
+            "url": "mailto:lizzy.stewart39@gmail.com",
+            "email": "lizzy.stewart39@gmail.com"
+        },
     ]
 }

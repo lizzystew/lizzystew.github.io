@@ -8,17 +8,6 @@
   padding-top: 2.5rem;
 }
 
-#colophon {
-  a {
-    color: inherit;
-
-    &:hover,
-    &:focus {
-      color: _palette(accent);
-    }
-  }
-}
-
 .site-info {
   font-size: 14px;
   line-height: 1.5;
@@ -48,10 +37,17 @@
     justify-content: center;
     margin: 0 15px 0.83333em 0;
     width: 30px;
-  }
+    color: darken(_palette(border), 15%);
 
-  .fab {
-    font-size: 18px;
+    &:hover {
+      color: _palette(accent-yellow);
+    }
+
+    span {
+      font-size: 24px;
+    }
+
+    
   }
 }
 
@@ -69,7 +65,7 @@
     margin-left: auto;
 
     a {
-      margin-left: 16px;
+      margin-left: 8px;
       margin-right: 0;
     }
   }

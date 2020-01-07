@@ -1,6 +1,7 @@
 ---
-title: Project Title 1
-subtitle: Optional Project Subtitle
+title: USAA Bank
+subtitle: Social-led Product Campaign
+tags: Strategy, Concepting, Execution
 date: '2019-05-10'
 thumb_img_path: images/1_thumb.jpg
 content_img_path: images/1.jpg

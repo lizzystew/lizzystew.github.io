@@ -5,6 +5,12 @@
 .site-header {
   padding-bottom: 1.33333em;
   padding-top: 1.33333em;
+
+  .social-links {
+    a {
+      margin-bottom: 0;
+    }
+  }
 }
 
 .site-header-inside {
@@ -91,6 +97,29 @@
 
 .menu-toggle {
   display: none;
+}
+
+.header-resume-link {
+  margin-left: 16px;
+  font-size: 14px;
+  border-bottom: none;
+  display: flex;
+  align-items: center;
+  color: white;
+  background: _palette(accent-yellow);
+  padding: 6px 12px;
+  border-radius: 2px;
+  transition: background-color 200ms ease;
+
+  &:hover {
+    color: white;
+    background: lighten(_palette(accent-yellow), 10%);
+  }
+
+  i {
+    font-size: 16px;
+    margin-left: 8px;
+  }
 }
 
 @media only screen and (max-width: 800px) {

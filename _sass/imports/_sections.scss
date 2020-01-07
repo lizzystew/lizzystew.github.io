@@ -49,13 +49,10 @@
   font-size: 18px;
   border: none;
   margin-bottom: 12px;
+  margin-top: 24px;
 
-  &:first-of-type {
-    margin-top: 24px;
-  }
-
-  > span {
-    font-size: 32px;
+  > i {
+    font-size: 42px;
     margin-right: 12px;
   }
 }

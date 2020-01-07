@@ -1,14 +1,11 @@
 {% for link in site.data.social.links %}
     {% if link.type == "email" %}
         <a class="contact-method" href="{{ link.url }}">
-            <span class="{{ link.icon }}" aria-hidden="true"></span>
-            {{ link.email }}
+            <i class="{{ link.icon }}" aria-hidden="true"></i>
         </a>
     {% else %}
         <a class="contact-method" target="_blank" href="{{ link.url }}">
-            <span class="{{ link.icon }}" aria-hidden="true"></span>
-            {{ link.url }}
+            <i class="{{ link.icon }}" aria-hidden="true"></i>
         </a>
     {% endif %}
-    <br>
 {% endfor %}

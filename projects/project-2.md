@@ -1,6 +1,7 @@
 ---
 title: Project Title 2
 subtitle: Optional Project Subtitle
+tags: Strategy, Concepting, Execution
 date: '2019-04-30'
 thumb_img_path: images/2_thumb.jpg
 content_img_path: images/2.jpg

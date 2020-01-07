@@ -27,7 +27,7 @@ sections:
     component: contact_block.html
     type: contactblock
     title: Get in touch
-    subtitle: Copy here?
+    subtitle: Thanks for stopping by. Want to talk strategy or roast chicken recipes? I'd love to hear from you.
 menus:
   main:
     weight: 1

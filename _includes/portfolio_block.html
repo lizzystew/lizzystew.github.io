@@ -24,7 +24,12 @@
             </div>
             {% endif %}
             <header class="post-header">
-              <h3 class="post-title">{{ post.title }}</h3>
+              <h3 class="post-title">
+                <span class="title">{{ post.title }}</span>
+                <span class="subtitle">{{ post.subtitle }}</span>
+                <span class="tags">{{ post.tags }}</span>
+              </h3>
+              
             </header>
           </a><!-- .post-link -->
         </article><!-- .post -->
